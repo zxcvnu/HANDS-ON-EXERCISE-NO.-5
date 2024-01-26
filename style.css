@@ -74,3 +74,44 @@ aside {
     font-style: italic;
     background-color: darkslategray;
 }
+
+/*Courses Offered*/
+
+.courses_offered {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50PX;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: default;
+}
+
+.courses_offered p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    cursor: default;
+}
+
+.courses_offered h2, h3 {
+    color: white;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-2 {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
