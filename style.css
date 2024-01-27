@@ -115,3 +115,35 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
+/*Courses Offered*/
+
+.services {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50PX;
+}
+
+.row-3 {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services {
+    color: white;
+}
+
+.contact {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150PX;
+}
+
+.contact p, h2 {
+    color: white;
+}
