@@ -1,0 +1,117 @@
+body { 
+    font-family: Arial, sans-serif;
+    line-height: 1.6; 
+    background-color: black;
+ } 
+
+ .box_1 { 
+    background-color: black; 
+    color: white; 
+    padding: 1rem; 
+ } 
+
+  #desktop-nav { 
+    display: none; 
+ } 
+
+  @media (min-width: 768px) { 
+    #desktop-nav 
+     { display: block; }
+     #mobile-nav 
+     { display: none; }
+ } 
+
+  .nav-links { 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: space-around;
+} 
+
+ .nav-links a { 
+    color: white; 
+    text-decoration: none; 
+    padding: 0.5rem 1rem;
+ } 
+
+ .nav-links a:hover { 
+    background-color: darkgray;
+ } 
+
+ .home { 
+    padding: 2rem;
+    color: white;
+    text-align: center;
+ } 
+
+ .about_smcc { 
+    padding: 2rem;
+    color: white;
+    text-align: center;
+ } 
+
+ .courses_offered { 
+    padding: 2rem; 
+    color: white;
+    text-align: center;
+ } 
+
+ .services { 
+    padding: 2rem; 
+    color: white;
+    text-align: center;
+ } 
+
+ .contact { 
+    padding: 2rem;
+    color: white;
+    text-align: center;
+ 
+ } 
+
+ .para { 
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+    align-items: center;
+ } 
+
+ .product-promos { 
+    background-color: darkgray;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    color: white;
+ } 
+
+ .product-promos h3 { 
+    margin-top: 0;
+ } 
+
+ .row { 
+    flex: 1 0 45%;
+ } 
+
+ .row > .column { 
+    flex: 1;
+    margin-right: 1rem; 
+    margin-bottom: 1rem;
+ } 
+
+ .row > .column:last-child { 
+    margin-right: 0;
+ } 
+
+ .row-2 > .column { 
+    flex: 1 0 45%;
+ } 
+ 
+ .row-3 > .column { 
+    flex: 1 0 30%;
+ } 
+
+ @media (max-width: 767.98px) 
+ { .row-2 > .column, .row-3 > .column { flex: 1 0 100%; } 
+
+} 
